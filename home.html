@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+<div class="header">
+    <header>
+        <h2>SephDesign</h2>
+        <div class="link">
+            <a href="">home</a>
+            <a href="">contact</a>
+            <a href="">blog</a>
+            <a href="">news</a>
+        </div>
+        <div class="enter">
+            <input id="email-send" type="text" value="" placeholder="Enter your email">
+            <button class="send" onclick="send()">send</button>
+        </div>
+    </header>
+</div>
+<div class="title">
+    <p class="contactus">contact us</p>
+    <p class="plus" onclick="formule()" >+</p>
+</div>
+<div id="formulaire">
+    <form>
+        <input id="name" type="text" value="" placeholder="Enter your name" >
+        <input id="lastname" type="text" value="" placeholder="Enter your Lastname" required>
+        <input id="contact" type="text" value="" placeholder="Enter your contact" required>
+    </form>
+    <button id="register" onclick="valider()">register</button>
+</div>
+<div class="result">
+    <div>
+        <div id="user">
+            <span id="user-name"></span>
+            <span id="user-nameV"></span>
+        </div>
+        <div>
+            <span id="user-last"></span>
+            <span id="user-lastname"></span>
+        </div>
+        <div>
+            <span id="user-contact"></span>
+            <span id="user-contactV"></span>
+        </div>
+    </div>
+    <div id="send">
+        <span id="mail"></span>
+        <span id="mail-value"></span>
+    </div>
+</div>
+
+
+    
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
