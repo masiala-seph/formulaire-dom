@@ -27,7 +27,7 @@ header{
 } 
 header h2{
     padding-left: 50px;
-    color: white;
+    color: white; 
 }
 .link{
    text-transform: capitalize;
